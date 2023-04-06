@@ -1,1 +1,9 @@
 /* Put Css Here... */
+*{
+    margin: 0;
+    top: 0;
+}
+#main_box{
+    height: 99.8vh;
+    background-color: #e6f6fc;
+}
