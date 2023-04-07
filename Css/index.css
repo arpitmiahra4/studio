@@ -16,14 +16,14 @@
   height: 90vh;
   width: 50%;
 }
-.umbrella_image{
-    margin: auto;
-    width: 95%;
-    margin-top: 10%;
+.umbrella_image {
+  margin: auto;
+  width: 95%;
+  margin-top: 10%;
 }
-.umbrella_src{
-    width: 80%;
-    margin-left: 10%;
+.umbrella_src {
+  width: 80%;
+  margin-left: 10%;
 }
 #text_container {
   height: 70vh;
@@ -31,14 +31,14 @@
   text-align: left;
   margin-top: 10%;
 }
-.title{
-    font-size: 70px;
+.title {
+  font-size: 70px;
 }
-.color_selector{
-    display: flex;
-    gap: 40px;
-    margin-top: 5%;
-    justify-content: left;
+.color_selector {
+  display: flex;
+  gap: 40px;
+  margin-top: 5%;
+  justify-content: left;
 }
 .pink_color {
   height: 35px;
@@ -64,27 +64,49 @@
   display: inline-block;
   cursor: pointer;
 }
-.upload_logo{
-    margin-top:5%;
-    display: flex;
-    align-items: center;
-    width: 85%;
-    height: 50px;
-    justify-self: start;
-    padding-left: 2%;
-    gap: 30%;
-    font-size: 22px;
-    font-weight: bold;
-    cursor: pointer;
-    color: white;
+.upload_logo {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  width: 85%;
+  height: 50px;
+  justify-self: start;
+  padding-left: 2%;
+  gap: 30%;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
 }
-#change_color{
-    fill: white;
+#change_color {
+  fill: white;
 }
-.for_logo{
+.for_logo {
   /* border: 1px solid red; */
   width: 25%;
   height: 30px;
   margin-left: 37%;
   margin-top: -15%;
+}
+
+.loader_image {
+  -webkit-animation: spin 1.2s linear infinite; /* Safari */
+  animation: spin 2s linear in;
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
