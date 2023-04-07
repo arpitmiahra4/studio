@@ -5,8 +5,6 @@
 }
 #main_box {
   height: 99.8vh;
-  /* background-color: #e6f6fc; */
-  /* #fffaed */
   display: flex;
   gap: 30px;
   justify-content: center;
@@ -69,7 +67,7 @@
   display: flex;
   align-items: center;
   width: 85%;
-  height: 50px;
+  height: 100px;
   justify-self: start;
   padding-left: 2%;
   gap: 30%;
@@ -82,7 +80,6 @@
   fill: white;
 }
 .for_logo {
-  /* border: 1px solid red; */
   width: 25%;
   height: 30px;
   margin-left: 37%;
@@ -90,7 +87,9 @@
 }
 
 .loader_image {
-  -webkit-animation: spin 1.2s linear infinite; /* Safari */
+  margin-top: 40vh;
+  height: 120px;
+  -webkit-animation: spin 1.6s linear infinite;
   animation: spin 2s linear in;
 }
 @-webkit-keyframes spin {
@@ -109,4 +108,33 @@
   100% {
     transform: rotate(360deg);
   }
+}
+
+.file-input {
+  position: relative;
+  margin-top: 30px;
+  width: 85%;
+  height: 100px;
+}
+
+.file-input input[type="file"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.file-input label {
+  background: #007bff;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  justify-self: start;
+  padding-left: 2%;
+  gap: 30%;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
 }
