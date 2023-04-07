@@ -76,9 +76,7 @@
   cursor: pointer;
   color: white;
 }
-#change_color {
-  fill: white;
-}
+
 .for_logo {
   width: 25%;
   height: 30px;
@@ -87,8 +85,12 @@
 }
 
 .loader_image {
-  margin-top: 40vh;
+  margin-top: 50vh;
   height: 120px;
+  -webkit-animation: spin 1.6s linear infinite;
+  animation: spin 2s linear in;
+}
+.uploader{
   -webkit-animation: spin 1.6s linear infinite;
   animation: spin 2s linear in;
 }
@@ -114,7 +116,7 @@
   position: relative;
   margin-top: 30px;
   width: 85%;
-  height: 100px;
+  height: 50px;
 }
 
 .file-input input[type="file"] {
@@ -126,7 +128,6 @@
 }
 
 .file-input label {
-  background: #007bff;
   display: flex;
   align-items: center;
   height: 50px;
@@ -137,4 +138,7 @@
   font-weight: bold;
   cursor: pointer;
   color: white;
+}
+#to_block{
+  display: block;
 }
