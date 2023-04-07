@@ -113,6 +113,7 @@ function themeChanger(payload) {
         logoIsUploading = false;
         display_image.style.display = "block"
         if (!logoIsUploading && logoImage) {
+            img.style.display = "block"
             img.setAttribute("src", logoImage);
             img.setAttribute('class', '');
         }

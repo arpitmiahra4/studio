@@ -90,7 +90,7 @@
   -webkit-animation: spin 1.6s linear infinite;
   animation: spin 2s linear in;
 }
-.uploader{
+.uploader {
   -webkit-animation: spin 1.6s linear infinite;
   animation: spin 2s linear in;
 }
@@ -139,6 +139,6 @@
   cursor: pointer;
   color: white;
 }
-#to_block{
+#to_block {
   display: block;
 }
