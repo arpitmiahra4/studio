@@ -37,8 +37,10 @@ function colorChangerFunction(e) {
     let color = e.target.className;
     themeChanger(changeObj[color])
 }
+
 let display_image = document.querySelector(".umbrella_src")
 display_image.src = "../images/Blue umbrella.png"
+
 
 let upload_svg = document.querySelector("#change_color");
 upload_svg.src = "../images/uploader.svg"
